@@ -58,6 +58,13 @@ public class User {
 		this.password = password;
 		this.roles = roles;
 	}
+
+	public String getAdress() {
+		return adress;
+	}
+	public void setAdress(String adress) {
+		this.adress = adress;
+	}
 	public Long getId() {
 		return id;
 	}

@@ -32,6 +32,9 @@ public class User {
 	private String email;
 	
 	private String password;
+	private String adress;
+	
+	
 	
 	@ManyToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
 	@JoinTable(
